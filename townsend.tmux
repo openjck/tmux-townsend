@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Status bar
 tmux set-option -g status-bg '#dadada'
 tmux set-option -g status-fg black
