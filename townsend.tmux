@@ -8,6 +8,9 @@ tmux set-option -g status-fg black
 tmux set-option -g pane-border-style fg='#dadada'
 tmux set-option -g pane-active-border-style fg='#dadada'
 
+# Clock
+tmux set-option -g clock-mode-colour '#dadada'
+
 # Window names
 tmux set-window-option -g window-status-current-format '[#I:#W]'
 tmux set-window-option -g window-status-format ' #I:#W '
