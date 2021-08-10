@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
 # Status bar
-tmux set-option -g status-bg '#dadada'
-tmux set-option -g status-fg black
+tmux set-option -g status-style bg='#dadada',fg=black
 
 # Pane borders
 tmux set-option -g pane-border-style fg='#dadada'
