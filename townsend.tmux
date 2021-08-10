@@ -11,7 +11,7 @@ tmux set-option -g pane-active-border-style fg='#dadada'
 # Clock
 tmux set-option -g clock-mode-colour '#dadada'
 
-# Mode style (scroll indicator, highlighting, etc.)
+# Mode (scroll indicator, highlighting, etc.)
 tmux set-option -g mode-style bg='#dadada',fg=black
 
 # Window names
