@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 
-# Status bar
+# Status line
 tmux set-option -g status-style bg='#dadada',fg=black
+
+# Command prompt (C-b b) and other features like find (C-b f) which display over
+# the status line
+tmux set-option -g message-style bg='#dadada',fg=black
 
 # Pane borders
 tmux set-option -g pane-border-style fg='#dadada'
