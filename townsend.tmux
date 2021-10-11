@@ -18,8 +18,8 @@ tmux set-option -g clock-mode-colour '#dadada'
 tmux set-option -g mode-style bg='#dadada',fg=black
 
 # Window names
-tmux set-window-option -g window-status-current-format '[#I:#W#{?window_zoomed_flag,:Zoomed,}]'
-tmux set-window-option -g window-status-format ' #I:#W#{?window_zoomed_flag,:Zoomed,} '
+tmux set-window-option -g window-status-current-format '[#I:#W#{?window_zoomed_flag,:zoomed,}]'
+tmux set-window-option -g window-status-format ' #I:#W#{?window_zoomed_flag,:zoomed,} '
 
 # Don't show anything between window names in the status line
 tmux set-window-option -g window-status-separator ''
