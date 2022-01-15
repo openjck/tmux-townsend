@@ -8,7 +8,7 @@ tmux set-option -g status-style bg='#dadada',fg=black
 tmux set-option -g message-style bg='#dadada',fg=black
 
 # Pane borders
-tmux set-option -g pane-border-style fg='#dadada'
+tmux set-option -g pane-border-style fg='#777777'
 tmux set-option -g pane-active-border-style fg='#dadada'
 
 # Clock
