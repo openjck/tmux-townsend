@@ -3,7 +3,7 @@
 # Status line
 tmux set-option -g status-style bg='#dadada',fg=black
 
-# Command prompt (C-b b) and other features like find (C-b f) which display over
+# Command prompt (C-b :) and other features like find (C-b f) which display over
 # the status line
 tmux set-option -g message-style bg='#dadada',fg=black
 
